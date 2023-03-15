@@ -1,0 +1,2335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde6b07e1700d1f4e87def0034b921dc, type: 3}
+  m_Name: Monster Database
+  m_EditorClassIdentifier: 
+  skillDatabase: {fileID: 11400000, guid: 761d9808db135054c8ad32b8d74bfa98, type: 2}
+  listDatas:
+  - id: MONS_001
+    monName: Goblin
+    rarity: 0
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 100
+      atk: 15
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_002
+    monName: Slime
+    rarity: 0
+    rank: 0
+    legion: 1
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 130
+      atk: 14
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_003
+    monName: Goblin Tanker
+    rarity: 0
+    rank: 0
+    legion: 2
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 160
+      atk: 10
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_004
+    monName: Axit Slime
+    rarity: 0
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 80
+      atk: 20
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_005
+    monName: HobGoblin
+    rarity: 1
+    rank: 0
+    legion: 1
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 200
+      atk: 20
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_002
+      skillName: Strong Attack
+      skillDescription: "G\xE2y 150% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1.5
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_006
+    monName: Copper Slime
+    rarity: 1
+    rank: 0
+    legion: 2
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 300
+      atk: 15
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill:
+    - skillID: SKIL_013
+      skillName: Tuant
+      skillDescription: X3 Chance of being target
+      type: 3
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_007
+    monName: Goblin Archer
+    rarity: 1
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 180
+      atk: 24
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_003
+      skillName: Wide Attack
+      skillDescription: "G\xE2y 40% s\xE1t th\u01B0\u01A1ng l\xEAn to\xE0n b\u1ED9
+        m\u1EE5c ti\xEAu"
+      type: 0
+      range: 1
+      faction: 1
+      value1: 0.4
+      buff: 
+    subSkill:
+    - skillID: SKIL_011
+      skillName: Focus
+      skillDescription: "G\xE2y 1 Focus l\xEAn m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 0.1
+      buff: BUFF_004
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_008
+    monName: Heal Slime +
+    rarity: 1
+    rank: 0
+    legion: 1
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 150
+      atk: 15
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_005
+      skillName: Wide Heal
+      skillDescription: "H\u1ED3i HP cho nhi\u1EC1u m\u1EE5c ti\xEAu b\u1EB1ng 15%
+        atk"
+      type: 1
+      range: 1
+      faction: 0
+      value1: 0.15
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_009
+    monName: Orge
+    rarity: 2
+    rank: 0
+    legion: 2
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 300
+      atk: 30
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_002
+      skillName: Strong Attack
+      skillDescription: "G\xE2y 150% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1.5
+      buff: 
+    subSkill:
+    - skillID: SKIL_012
+      skillName: Extra Heal
+      skillDescription: "Heal b\u1EA3n th\xE2n b\u1EB1ng 10% s\xE1t th\u01B0\u01A1ng
+        g\xE2y ra"
+      type: 1
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    - skillID: SKIL_014
+      skillName: Danger Instict
+      skillDescription: Inscrease 5% dmg output Per Enemy in Room
+      type: 3
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_010
+    monName: Steel Slime
+    rarity: 2
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 450
+      atk: 20
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill:
+    - skillID: SKIL_013
+      skillName: Tuant
+      skillDescription: X3 Chance of being target
+      type: 3
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    - skillID: SKIL_015
+      skillName: Steel
+      skillDescription: Reduce 15% Damage Gain
+      type: 3
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_011
+    monName: Deadly Slime
+    rarity: 2
+    rank: 0
+    legion: 1
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 200
+      atk: 40
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_003
+      skillName: Wide Attack
+      skillDescription: "G\xE2y 40% s\xE1t th\u01B0\u01A1ng l\xEAn to\xE0n b\u1ED9
+        m\u1EE5c ti\xEAu"
+      type: 0
+      range: 1
+      faction: 1
+      value1: 0.4
+      buff: 
+    subSkill:
+    - skillID: SKIL_016
+      skillName: Murder
+      skillDescription: Inscrease 20% Attack per target
+      type: 3
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    - skillID: SKIL_017
+      skillName: Shield Breaker
+      skillDescription: Cause 5 Fragile To Target
+      type: 3
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_012
+    monName: Fighter Slime
+    rarity: 2
+    rank: 0
+    legion: 2
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 300
+      atk: 33
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill:
+    - skillID: SKIL_018
+      skillName: Focus Weakness
+      skillDescription: Inscrease Critical Rate by 30%
+      type: 0
+      range: 0
+      faction: 0
+      value1: 0
+      buff: 
+    - skillID: SKIL_019
+      skillName: Charge
+      skillDescription: Inscrease Critical Damage by 100%
+      type: 0
+      range: 0
+      faction: 0
+      value1: 0
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_013
+    monName: God Slime
+    rarity: 3
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 400
+      atk: 40
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_003
+      skillName: Wide Attack
+      skillDescription: "G\xE2y 40% s\xE1t th\u01B0\u01A1ng l\xEAn to\xE0n b\u1ED9
+        m\u1EE5c ti\xEAu"
+      type: 0
+      range: 1
+      faction: 1
+      value1: 0.4
+      buff: 
+    subSkill:
+    - skillID: SKIL_016
+      skillName: Murder
+      skillDescription: Inscrease 20% Attack per target
+      type: 3
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    - skillID: SKIL_014
+      skillName: Danger Instict
+      skillDescription: Inscrease 5% dmg output Per Enemy in Room
+      type: 3
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    - skillID: SKIL_012
+      skillName: Extra Heal
+      skillDescription: "Heal b\u1EA3n th\xE2n b\u1EB1ng 10% s\xE1t th\u01B0\u01A1ng
+        g\xE2y ra"
+      type: 1
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_014
+    monName: Death Slime
+    rarity: 3
+    rank: 0
+    legion: 1
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 200
+      atk: 100
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_002
+      skillName: Strong Attack
+      skillDescription: "G\xE2y 150% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1.5
+      buff: 
+    subSkill:
+    - skillID: SKIL_020
+      skillName: Innate Strength
+      skillDescription: Inscrease Attack 50%
+      type: 0
+      range: 0
+      faction: 0
+      value1: 0
+      buff: 
+    - skillID: SKIL_021
+      skillName: Natural Talent
+      skillDescription: Inscrease Damage Output by 50%
+      type: 0
+      range: 0
+      faction: 0
+      value1: 0
+      buff: 
+    - skillID: SKIL_022
+      skillName: Blood Thristy
+      skillDescription: 'Inscrease Damage Output by 5% For Everytime attack '
+      type: 0
+      range: 0
+      faction: 0
+      value1: 0
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_017
+    monName: Slime King
+    rarity: 0
+    rank: 1
+    legion: 2
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 100
+        expNeedToLevelUp: 10
+      maxHP: 600
+      atk: 60
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill:
+    - skillID: SKIL_012
+      skillName: Extra Heal
+      skillDescription: "Heal b\u1EA3n th\xE2n b\u1EB1ng 10% s\xE1t th\u01B0\u01A1ng
+        g\xE2y ra"
+      type: 1
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_018
+    monName: Goblin Shaman
+    rarity: 0
+    rank: 1
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 100
+        expNeedToLevelUp: 10
+      maxHP: 500
+      atk: 100
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_023
+      skillName: Strong Wide Attack
+      skillDescription: "G\xE2y 90% s\xE1t th\u01B0\u01A1ng l\xEAn to\xE0n b\u1ED9
+        m\u1EE5c ti\xEAu"
+      type: 0
+      range: 1
+      faction: 1
+      value1: 0.9
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_019
+    monName: Goblin King
+    rarity: 1
+    rank: 1
+    legion: 1
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 100
+        expNeedToLevelUp: 10
+      maxHP: 800
+      atk: 120
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill:
+    - skillID: SKIL_012
+      skillName: Extra Heal
+      skillDescription: "Heal b\u1EA3n th\xE2n b\u1EB1ng 10% s\xE1t th\u01B0\u01A1ng
+        g\xE2y ra"
+      type: 1
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    - skillID: SKIL_014
+      skillName: Danger Instict
+      skillDescription: Inscrease 5% dmg output Per Enemy in Room
+      type: 3
+      range: 0
+      faction: 2
+      value1: 0.1
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_020
+    monName: Spear Ratman
+    rarity: 0
+    rank: 0
+    legion: 2
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 100
+      atk: 15
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_003
+      skillName: Wide Attack
+      skillDescription: "G\xE2y 40% s\xE1t th\u01B0\u01A1ng l\xEAn to\xE0n b\u1ED9
+        m\u1EE5c ti\xEAu"
+      type: 0
+      range: 1
+      faction: 1
+      value1: 0.4
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_021
+    monName: Heal Slime
+    rarity: 0
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 100
+      atk: 15
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_004
+      skillName: Heal
+      skillDescription: "H\u1ED3i HP 1 m\u1EE5c ti\xEAu b\u1EB1ng 30% atk"
+      type: 1
+      range: 0
+      faction: 0
+      value1: 0.3
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_015
+    monName: Basic Adventure 1
+    rarity: 0
+    rank: 0
+    legion: 1
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 100
+        expNeedToLevelUp: 10
+      maxHP: 300
+      atk: 5
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 1
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_016
+    monName: Corrupted Basic Adventure 1
+    rarity: 0
+    rank: 0
+    legion: 2
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 100
+        expNeedToLevelUp: 10
+      maxHP: 300
+      atk: 20
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 1
+  - id: MONS_022
+    monName: Basic Adventure 2
+    rarity: 1
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 100
+        expNeedToLevelUp: 10
+      maxHP: 450
+      atk: 15
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 1
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 5
+    isCorrupted: 0
+  - id: MONS_023
+    monName: Basic Adventure 3
+    rarity: 2
+    rank: 0
+    legion: 1
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 100
+        expNeedToLevelUp: 10
+      maxHP: 800
+      atk: 30
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 1
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 10
+    isCorrupted: 0
+  - id: MONS_024
+    monName: Basic Adventure 4
+    rarity: 3
+    rank: 0
+    legion: 1
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 100
+        expNeedToLevelUp: 10
+      maxHP: 1500
+      atk: 80
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 1
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 20
+    isCorrupted: 0
+  - id: MONS_025
+    monName: Basic Adventure 5
+    rarity: 3
+    rank: 0
+    legion: 1
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 100
+        expNeedToLevelUp: 10
+      maxHP: 3000
+      atk: 140
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 1
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_026
+    monName: Basic Adventure 6
+    rarity: 3
+    rank: 0
+    legion: 1
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 100
+        expNeedToLevelUp: 10
+      maxHP: 6000
+      atk: 200
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 1
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill: []
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_027
+    monName: Poison Rat
+    rarity: 1
+    rank: 0
+    legion: 1
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 200
+      atk: 10
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_001
+      skillName: Normal Attack
+      skillDescription: "G\xE2y 100% s\xE1t th\u01B0\u01A1ng l\xEAn 1 m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 1
+      buff: 
+    subSkill:
+    - skillID: SKIL_009
+      skillName: Weaken
+      skillDescription: "G\xE2y 5 Weak l\xEAn m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 0.3
+      buff: BUFF_002
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_028
+    monName: Monster Tier 3_1
+    rarity: 2
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 200
+      atk: 40
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_004
+      skillName: Heal
+      skillDescription: "H\u1ED3i HP 1 m\u1EE5c ti\xEAu b\u1EB1ng 30% atk"
+      type: 1
+      range: 0
+      faction: 0
+      value1: 0.3
+      buff: 
+    subSkill:
+    - skillID: SKIL_024
+      skillName: Shield
+      skillDescription: Create Shield Equal 20% atk to All Target
+      type: 0
+      range: 1
+      faction: 1
+      value1: 0.9
+      buff: 
+    - skillID: SKIL_025
+      skillName: Power Boots
+      skillDescription: Inscreaste Target Attack 305
+      type: 0
+      range: 1
+      faction: 1
+      value1: 0.9
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_029
+    monName: Monster Tier 3_2
+    rarity: 2
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 200
+      atk: 40
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_026
+      skillName: Target Allies
+      skillDescription: All Sub Skill will target Allies
+      type: 1
+      range: 1
+      faction: 0
+      value1: 0
+      buff: 
+    subSkill:
+    - skillID: SKIL_006
+      skillName: Share Power
+      skillDescription: "T\u1EA1o buff t\u0103ng atk b\u1EB1ng 60% atk hi\u1EC7n
+        t\u1EA1i c\u1EE7a b\u1EA3n th\xE2n l\xEAn to\xE0n b\u1ED9 \u0111\u1ED3ng
+        minh"
+      type: 2
+      range: 1
+      faction: 0
+      value1: 0.6
+      buff: BUFF_001
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_030
+    monName: Monster Tier 4_1
+    rarity: 3
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 350
+      atk: 40
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_026
+      skillName: Target Allies
+      skillDescription: All Sub Skill will target Allies
+      type: 1
+      range: 1
+      faction: 0
+      value1: 0
+      buff: 
+    subSkill:
+    - skillID: SKIL_024
+      skillName: Shield
+      skillDescription: Create Shield Equal 20% atk to All Target
+      type: 0
+      range: 1
+      faction: 1
+      value1: 0.9
+      buff: 
+    - skillID: SKIL_025
+      skillName: Power Boots
+      skillDescription: Inscreaste Target Attack 30%
+      type: 0
+      range: 1
+      faction: 1
+      value1: 0.9
+      buff: 
+    - skillID: SKIL_006
+      skillName: Share Power
+      skillDescription: "T\u1EA1o buff t\u0103ng atk b\u1EB1ng 60% atk hi\u1EC7n
+        t\u1EA1i c\u1EE7a b\u1EA3n th\xE2n l\xEAn to\xE0n b\u1ED9 \u0111\u1ED3ng
+        minh"
+      type: 2
+      range: 1
+      faction: 0
+      value1: 0.5
+      buff: BUFF_001
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_031
+    monName: Corupted Basic Adventure 2
+    rarity: 1
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 300
+      atk: 30
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_005
+      skillName: Wide Heal
+      skillDescription: "H\u1ED3i HP cho nhi\u1EC1u m\u1EE5c ti\xEAu b\u1EB1ng 15%
+        atk"
+      type: 1
+      range: 1
+      faction: 0
+      value1: 0.15
+      buff: 
+    subSkill:
+    - skillID: SKIL_025
+      skillName: Power Boots
+      skillDescription: Inscreaste Target Attack 30%
+      type: 0
+      range: 1
+      faction: 1
+      value1: 0.9
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 1
+  - id: MONS_032
+    monName: Corupted Basic Adventure 3
+    rarity: 2
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 300
+      atk: 50
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_003
+      skillName: Wide Attack
+      skillDescription: "G\xE2y 40% s\xE1t th\u01B0\u01A1ng l\xEAn to\xE0n b\u1ED9
+        m\u1EE5c ti\xEAu"
+      type: 0
+      range: 1
+      faction: 1
+      value1: 0.4
+      buff: 
+    subSkill:
+    - skillID: SKIL_009
+      skillName: Weaken
+      skillDescription: "G\xE2y 5 Weak l\xEAn m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 1
+      value1: 0.3
+      buff: BUFF_002
+    - skillID: SKIL_020
+      skillName: Innate Strength
+      skillDescription: Inscrease Attack 50%
+      type: 0
+      range: 0
+      faction: 0
+      value1: 0
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0
+  - id: MONS_033
+    monName: Corupted Basic Adventure 4
+    rarity: 3
+    rank: 0
+    legion: 0
+    stat:
+      level:
+        level: 1
+        currentExp: 0
+        totalExp: 0
+        expNeedToLevelUp: 10
+      maxHP: 400
+      atk: 60
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 1
+    baseStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    captureStat:
+      maxHP: 0
+      baseMaxHP: 0
+      currentHP: 0
+      atk: 0
+      criticalRate: 0
+      criticalDmg: 0
+      attackSpeed: 0
+      dmgOutput: 0
+      healingBonus: 0
+      dmgGain: 0
+      timeCounter: 0
+      listBuff: []
+    faction: 0
+    mainSkill:
+      skillID: SKIL_003
+      skillName: Wide Attack
+      skillDescription: "G\xE2y 40% s\xE1t th\u01B0\u01A1ng l\xEAn to\xE0n b\u1ED9
+        m\u1EE5c ti\xEAu"
+      type: 0
+      range: 1
+      faction: 1
+      value1: 0.4
+      buff: 
+    subSkill:
+    - skillID: SKIL_018
+      skillName: Focus Weakness
+      skillDescription: Inscrease Critical Rate by 30%
+      type: 0
+      range: 0
+      faction: 0
+      value1: 0
+      buff: 
+    - skillID: SKIL_011
+      skillName: Focus
+      skillDescription: "G\xE2y 1 Focus l\xEAn m\u1EE5c ti\xEAu"
+      type: 0
+      range: 0
+      faction: 0
+      value1: 0.1
+      buff: BUFF_004
+    - skillID: SKIL_022
+      skillName: Blood Thristy
+      skillDescription: 'Inscrease Damage Output by 5% For Everytime attack '
+      type: 0
+      range: 0
+      faction: 0
+      value1: 0
+      buff: 
+    isDead: 0
+    isTakeDmg: 0
+    dmgReceived: 0
+    address: 0
+    dungeonAddress: 
+    isCorrupting: 0
+    isCorruptDone: 0
+    corruptionTime: 0
+    isCorrupted: 0

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6bc387ae2ccc9f4cae2884b29e63107, type: 3}
+  m_Name: Gacha Item Database
+  m_EditorClassIdentifier: 
+  listItems:
+  - gachaID: GAIT_001
+    itemID: MONS_001
+    itemName: Goblin
+    itemRarity: 0
+    rank: 0
+  - gachaID: GAIT_002
+    itemID: MONS_002
+    itemName: Slime
+    itemRarity: 0
+    rank: 0
+  - gachaID: GAIT_003
+    itemID: MONS_003
+    itemName: Goblin Tanker
+    itemRarity: 0
+    rank: 0
+  - gachaID: GAIT_004
+    itemID: MONS_004
+    itemName: Axit Slime
+    itemRarity: 0
+    rank: 0
+  - gachaID: GAIT_005
+    itemID: MONS_005
+    itemName: HobGoblin
+    itemRarity: 1
+    rank: 0
+  - gachaID: GAIT_006
+    itemID: MONS_006
+    itemName: Copper Slime
+    itemRarity: 1
+    rank: 0
+  - gachaID: GAIT_007
+    itemID: MONS_007
+    itemName: Goblin Archer
+    itemRarity: 1
+    rank: 0
+  - gachaID: GAIT_008
+    itemID: MONS_008
+    itemName: Axit Slime +
+    itemRarity: 1
+    rank: 0
+  - gachaID: GAIT_009
+    itemID: MONS_009
+    itemName: Orge
+    itemRarity: 2
+    rank: 0
+  - gachaID: GAIT_010
+    itemID: MONS_010
+    itemName: Steel Slime
+    itemRarity: 2
+    rank: 0
+  - gachaID: GAIT_011
+    itemID: MONS_011
+    itemName: Deadly Slime
+    itemRarity: 2
+    rank: 0
+  - gachaID: GAIT_012
+    itemID: MONS_012
+    itemName: Fighter Slime
+    itemRarity: 2
+    rank: 0
+  - gachaID: GAIT_013
+    itemID: MONS_013
+    itemName: God Slime
+    itemRarity: 3
+    rank: 0
+  - gachaID: GAIT_014
+    itemID: MONS_014
+    itemName: Death Slime
+    itemRarity: 3
+    rank: 0
+  - gachaID: GAIT_017
+    itemID: MONS_017
+    itemName: Slime King
+    itemRarity: 0
+    rank: 1
+  - gachaID: GAIT_018
+    itemID: MONS_018
+    itemName: Goblin Shaman
+    itemRarity: 0
+    rank: 1
+  - gachaID: GAIT_019
+    itemID: MONS_019
+    itemName: Goblin King
+    itemRarity: 1
+    rank: 1

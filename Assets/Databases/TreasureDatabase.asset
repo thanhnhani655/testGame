@@ -1,0 +1,383 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217a79cb6b91cf447bd180b81a7dcaa8, type: 3}
+  m_Name: TreasureDatabase
+  m_EditorClassIdentifier: 
+  listTreasureData:
+  - id: TREA_001
+    itemName: 1000 Gold Coin
+    desc: Inscrease 10% Soul Gain For Each Stack
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 10
+    maxduplicate: -1
+  - id: TREA_002
+    itemName: Skull Amulet
+    desc: Inscrease 50% Soul Gain
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 50
+    maxduplicate: 1
+  - id: TREA_003
+    itemName: Skull
+    desc: Inscrease 100% Soul Gain
+    rarity: 2
+    treasureType: 0
+    stack: 1
+    value1: 100
+    maxduplicate: 1
+  - id: TREA_004
+    itemName: Soul Chain
+    desc: Inscrease 2% Soul Gain For each Prisoner
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 2
+    maxduplicate: 1
+  - id: TREA_005
+    itemName: Drug
+    desc: Gain 25% More Corrupted Soul
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 25
+    maxduplicate: 1
+  - id: TREA_006
+    itemName: Rusty Weapon
+    desc: Inscrease 5% Atk per stack
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 5
+    maxduplicate: -1
+  - id: TREA_007
+    itemName: Good Quality Weapon
+    desc: Inscrease 10% Atk per stack
+    rarity: 2
+    treasureType: 0
+    stack: 1
+    value1: 10
+    maxduplicate: -1
+  - id: TREA_008
+    itemName: Steel Pan
+    desc: Inscrease 25% ATK
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 25
+    maxduplicate: 1
+  - id: TREA_009
+    itemName: Asian Whip
+    desc: Inscrease 50% ATK
+    rarity: 2
+    treasureType: 0
+    stack: 1
+    value1: 50
+    maxduplicate: 1
+  - id: TREA_010
+    itemName: HP Potion
+    desc: Inscrease 5% HP per stack
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 5
+    maxduplicate: -1
+  - id: TREA_011
+    itemName: Good Potion
+    desc: Inscrease 10% HP per stack
+    rarity: 2
+    treasureType: 0
+    stack: 1
+    value1: 10
+    maxduplicate: -1
+  - id: TREA_012
+    itemName: Phone Armor
+    desc: Gain 10 Diamond At The Star Of Invade Phase
+    rarity: 2
+    treasureType: 0
+    stack: 1
+    value1: 10
+    maxduplicate: 1
+  - id: TREA_013
+    itemName: Vest
+    desc: Gain 50 Diamond at start of Invade
+    rarity: 3
+    treasureType: 0
+    stack: 1
+    value1: 50
+    maxduplicate: 1
+  - id: TREA_014
+    itemName: Meat
+    desc: Dungeon Gain 25% HP
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 25
+    maxduplicate: 1
+  - id: TREA_015
+    itemName: Bone
+    desc: Inscrease 5% Critical Chance
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 0.05
+    maxduplicate: 1
+  - id: TREA_016
+    itemName: Heart Ring
+    desc: Inscrease Critical Rate By 10%
+    rarity: 2
+    treasureType: 0
+    stack: 1
+    value1: 0.1
+    maxduplicate: 1
+  - id: TREA_017
+    itemName: Used Panty
+    desc: Inscrease 50% Healing Bonus
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 0.5
+    maxduplicate: 1
+  - id: TREA_018
+    itemName: Tea
+    desc: Inscrease 10% Dmg Bonus
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 0.1
+    maxduplicate: 1
+  - id: TREA_019
+    itemName: Gold Ring
+    desc: Inscrease 10% ATK SPEED
+    rarity: 2
+    treasureType: 0
+    stack: 1
+    value1: 0.1
+    maxduplicate: 1
+  - id: TREA_020
+    itemName: Asian parent Shoe
+    desc: Boss Gain 50% ATK
+    rarity: 2
+    treasureType: 1
+    stack: 1
+    value1: 0.5
+    maxduplicate: 1
+  - id: TREA_021
+    itemName: Tin Can
+    desc: Minion In Boss Room Inscrease 50% HP
+    rarity: 1
+    treasureType: 1
+    stack: 1
+    value1: 0.5
+    maxduplicate: 1
+  - id: TREA_022
+    itemName: Silver Tin Can
+    desc: Minion In Boss Room Inscrease 100% HP
+    rarity: 2
+    treasureType: 1
+    stack: 1
+    value1: 1
+    maxduplicate: 1
+  - id: TREA_023
+    itemName: Gold Tin Can
+    desc: Minion In Boss Room Inscrease 200% HP
+    rarity: 3
+    treasureType: 1
+    stack: 1
+    value1: 2
+    maxduplicate: 1
+  - id: TREA_024
+    itemName: Boss Toy
+    desc: Boss Gain 50% HP
+    rarity: 1
+    treasureType: 1
+    stack: 1
+    value1: 0.5
+    maxduplicate: 1
+  - id: TREA_025
+    itemName: Quality Meat
+    desc: Boss Gain 100% HP
+    rarity: 2
+    treasureType: 1
+    stack: 1
+    value1: 1
+    maxduplicate: 1
+  - id: TREA_026
+    itemName: Beefsteak
+    desc: Boss Gain 150% HP
+    rarity: 3
+    treasureType: 1
+    stack: 1
+    value1: 1.5
+    maxduplicate: 1
+  - id: TREA_027
+    itemName: Kobe
+    desc: Boss Gain 250% HP
+    rarity: 3
+    treasureType: 1
+    stack: 1
+    value1: 2.5
+    maxduplicate: 1
+  - id: TREA_028
+    itemName: Book
+    desc: Boss Gain 100% Atk
+    rarity: 2
+    treasureType: 1
+    stack: 1
+    value1: 1
+    maxduplicate: 1
+  - id: TREA_029
+    itemName: Smart Phone
+    desc: Boss Gain 150% ATK
+    rarity: 3
+    treasureType: 1
+    stack: 1
+    value1: 1.5
+    maxduplicate: 1
+  - id: TREA_030
+    itemName: Shield
+    desc: Create a Shield Equal 10% HP At the start of Invade
+    rarity: 1
+    treasureType: 1
+    stack: 1
+    value1: 0.1
+    maxduplicate: 1
+  - id: TREA_031
+    itemName: Heavy Shield
+    desc: Create a Shield Equal 30% HP At the start of Invade
+    rarity: 2
+    treasureType: 1
+    stack: 1
+    value1: 0.3
+    maxduplicate: 1
+  - id: TREA_032
+    itemName: Bless Shield
+    desc: Create a Shield Equal 50% HP At the start of Invade
+    rarity: 3
+    treasureType: 1
+    stack: 1
+    value1: 0.5
+    maxduplicate: 1
+  - id: TREA_033
+    itemName: Devil God Shield
+    desc: Create a Shield Equal 100% HP At the start of Invade
+    rarity: 3
+    treasureType: 1
+    stack: 1
+    value1: 1
+    maxduplicate: 1
+  - id: TREA_034
+    itemName: Toothpick
+    desc: Can Build Weak Trap
+    rarity: 1
+    treasureType: 2
+    stack: 1
+    value1: 0
+    maxduplicate: 1
+  - id: TREA_035
+    itemName: Gum
+    desc: 'Can Build Gum Trap '
+    rarity: 1
+    treasureType: 2
+    stack: 1
+    value1: 0
+    maxduplicate: 1
+  - id: TREA_036
+    itemName: Double Gum
+    desc: Can Upgrade Gum To level 20
+    rarity: 2
+    treasureType: 2
+    stack: 1
+    value1: 0
+    maxduplicate: 1
+  - id: TREA_037
+    itemName: Triple Gum
+    desc: Can Upgrade Gum To level 30
+    rarity: 3
+    treasureType: 2
+    stack: 1
+    value1: 0
+    maxduplicate: 1
+  - id: TREA_038
+    itemName: Fish Doll
+    desc: Can Upgrade Soul Extractor To level 20
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 0
+    maxduplicate: 1
+  - id: TREA_039
+    itemName: Prison
+    desc: Inscrease Max Prison Capacity 2 more
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 2
+    maxduplicate: 1
+  - id: TREA_040
+    itemName: Giant Seal
+    desc: Can Build Giant Seal
+    rarity: 2
+    treasureType: 2
+    stack: 1
+    value1: 0
+    maxduplicate: 1
+  - id: TREA_041
+    itemName: Soul Sucker Seal
+    desc: Can Build Soul Sucker Seal
+    rarity: 2
+    treasureType: 2
+    stack: 1
+    value1: 0
+    maxduplicate: 1
+  - id: TREA_042
+    itemName: Soul Extractor 2
+    desc: Can Upgrade Soul Extractor To level 30
+    rarity: 3
+    treasureType: 2
+    stack: 1
+    value1: 0
+    maxduplicate: 1
+  - id: TREA_043
+    itemName: Asian Parent Boss
+    desc: Can Summon Asian Parent
+    rarity: 3
+    treasureType: 2
+    stack: 1
+    value1: 0
+    maxduplicate: 1
+  - id: TREA_044
+    itemName: Better Prison
+    desc: Can Upgrade Prison
+    rarity: 1
+    treasureType: 2
+    stack: 1
+    value1: 0
+    maxduplicate: 1
+  - id: TREA_045
+    itemName: Rose
+    desc: Legion Bonus Upgrade
+    rarity: 1
+    treasureType: 0
+    stack: 1
+    value1: 0
+    maxduplicate: 1
+  - id: TREA_046
+    itemName: Asian Parent Doll
+    desc: Legion Bonus Upgrade
+    rarity: 2
+    treasureType: 0
+    stack: 1
+    value1: 0
+    maxduplicate: 1
